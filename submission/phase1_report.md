@@ -52,15 +52,17 @@ Include your histogram or plot of the warm distribution below (an image, or the 
 `measure.py` prints). This is read by a human, not the grader:
 
 <!--answer:latency_plot-->
+<pre>
 Phase 1 — deployment measurements
 ------------------------------------------------------------
-[OK  ] vm        cold=  266.6ms  warm_median=  210.9ms
+[OK  ] vm        cold=  266.6ms  warm_median=   210.9ms
             #############
-[OK  ] cloudrun  cold= 1761.4ms  warm_median=  641.2ms
+[OK  ] cloudrun  cold= 1761.4ms  warm_median=   641.2ms
             ########################################
-[OK  ] function  cold=  702.4ms  warm_median=  639.0ms
+[OK  ] function  cold=  702.4ms  warm_median=   639.0ms
             ########################################
 ------------------------------------------------------------
+</pre>
 <!--/answer-->
 
 ---
