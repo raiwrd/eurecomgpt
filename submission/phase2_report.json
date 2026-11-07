@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 249.924,
+    "vectorized_ms": 1.097,
+    "speedup": 227.82
+  },
+  "threads": {
+    "1": 2212.303,
+    "2": 2403.856,
+    "4": 2232.667,
+    "8": 2396.835
+  },
+  "devices": {
+    "cpu_ms": 435848.2,
+    "gpu_ms": 13787.6
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.4666,
+    "param_count": 4935680
+  },
+  "sample": "\nIf best a mainst, though a loves of the chides\nmag, affrice lass, and feel, his adver-sines with\nston: help your from sweet her eyeding its;\nFor he mighral speech croalm us the shall\nTo like this with",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/eurecomgpt-512008-eurecomgpt/model.safetensors"
+  }
+}
